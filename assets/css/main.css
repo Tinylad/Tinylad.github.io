@@ -120,8 +120,6 @@ input, select, textarea {
 	.image_box {
 		position: relative;
 		width: 100%;
-		left: 0px;
-		top: 0px;
 		background-attachment: fixed;
 	}
 
