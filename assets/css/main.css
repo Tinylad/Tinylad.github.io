@@ -117,6 +117,22 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+	.image_box {
+		position: relative;
+		width: 100%;
+		left: 0px;
+		top: 0px;
+		background-image: url('images/Landing_01.webp');
+		background-attachment: fixed;
+	}
+
+	.image_box:before {
+		content: "";
+		display: block;
+		padding-top: 100%;
+		/* initial ratio of 1:1*/
+	}
+
 /* Type */
 
 	body, input, select, textarea {
