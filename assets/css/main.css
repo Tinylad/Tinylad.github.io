@@ -123,7 +123,7 @@ input, select, textarea {
 		background-attachment: fixed;
 	}
 
-	.image_box:before {
+	.image_box:after {
 		content: "";
 		display: block;
 		padding-top: 100%;
