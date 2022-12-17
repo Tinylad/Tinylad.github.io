@@ -123,12 +123,11 @@ input, select, textarea {
 		background-attachment: fixed;
 	}
 
-	.image_box:after {
+	/* .image_box:after {
 		content: "";
 		display: block;
 		padding-top: 100%;
-		/* initial ratio of 1:1*/
-	}
+		/* initial ratio of 1:1}*/
 
 /* Type */
 
