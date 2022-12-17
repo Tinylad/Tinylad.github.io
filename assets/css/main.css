@@ -121,6 +121,7 @@ input, select, textarea {
 		position: relative;
 		width: 100%;
 		background-attachment: fixed;
+		background-size: cover;
 	}
 
 /* Type */
