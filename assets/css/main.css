@@ -118,10 +118,11 @@ input, select, textarea {
 		}
 
 	.image_box {
-		position: relative;
 		width: 100%;
 		background-attachment: fixed;
-		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;;
 	}
 
 /* Type */
