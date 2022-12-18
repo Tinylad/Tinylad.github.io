@@ -343,6 +343,11 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	#black-stroke{
+		-webkit-text-stroke-width: 2px;
+		-webkit-text-stroke-color: black;
+	}
+
 /* Row */
 
 	.row {
