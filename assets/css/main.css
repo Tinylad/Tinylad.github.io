@@ -125,6 +125,58 @@ input, select, textarea {
 		background-size: cover;
 	}
 
+	span.nabla {
+		animation: depth 1s ease-in-out alternate infinite;
+		position: relative;
+		display: inline-block;
+		font-variation-settings: "EDPT" 30;
+	  }
+	  span.nabla:nth-child(1) {
+		animation-delay: 0.1s;
+	  }
+	  span.nabla:nth-child(2) {
+		animation-delay: 0.2s;
+	  }
+	  span.nabla:nth-child(3) {
+		animation-delay: 0.3s;
+	  }
+	  span.nabla:nth-child(4) {
+		animation-delay: 0.4s;
+	  }
+	  span.nabla:nth-child(5) {
+		animation-delay: 0.5s;
+	  }
+	  span.nabla:nth-child(6) {
+		animation-delay: 0.6s;
+	  }
+	  span.nabla:nth-child(7) {
+		animation-delay: 0.7s;
+	  }
+	  span.nabla:nth-child(8) {
+		animation-delay: 0.8s;
+	  }
+	  span.nabla:nth-child(9) {
+		animation-delay: 0.9s;
+	  }
+	  span.nabla:nth-child(10) {
+		animation-delay: 1s;
+	  }
+	  span.nabla:nth-child(11) {
+		animation-delay: 1.1s;
+	  }
+	  span.nabla:nth-child(12) {
+		animation-delay: 1.2s;
+	  }
+	  @keyframes depth {
+		0% {
+		  transform: translatex(0) translatey(0);
+		}
+		100% {
+		  font-variation-settings: "EDPT" 200;
+		  transform: translatex(0.15em) translatey(0.1em);
+		}
+	  }
+
 /* Type */
 
 	body, input, select, textarea {
@@ -343,10 +395,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	#black-stroke{
-		-webkit-text-stroke-width: 2px;
-		-webkit-text-stroke-color: black;
-	}
+	
 
 /* Row */
 
