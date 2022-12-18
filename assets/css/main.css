@@ -124,8 +124,8 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	
-	@font-palette-values --Nabla {
+
+	@font-palette-values Nabla {
 		font-family: Nabla;
 		base-palette: 2;
 	}
