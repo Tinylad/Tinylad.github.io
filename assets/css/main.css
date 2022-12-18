@@ -125,11 +125,6 @@ input, select, textarea {
 		background-size: cover;
 	}
 
-	@font-palette-values Nabla {
-		font-family: Nabla;
-		base-palette: 2;
-	}
-
 /* Type */
 
 	body, input, select, textarea {
@@ -173,7 +168,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 900;
-		font-family: 'Supreme';
+		font-family: 'Russo One';
 	}
 
 	em, i {
