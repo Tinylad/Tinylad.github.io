@@ -177,7 +177,7 @@ input, select, textarea {
 		}
 	  }
 
-	  outline {
+	  #outline {
 		text-shadow: 2px 2px #240c4c; -webkit-text-stroke-width: 1px; -webkit-text-stroke-color: #585858;
 	  }
 
